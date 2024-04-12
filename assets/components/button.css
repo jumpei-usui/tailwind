@@ -1,0 +1,29 @@
+@layer components {
+  .btn-red {
+    @apply bg-red-500 px-8 py-2 font-bold text-white transition hover:bg-red-700;
+  }
+
+  .btn-blue {
+    @apply bg-blue-500 px-8 py-2 font-bold text-white transition hover:bg-blue-700;
+  }
+
+  .btn-green {
+    @apply bg-green-500 px-8 py-2 font-bold text-white transition hover:bg-green-700;
+  }
+
+  .btn-yellow {
+    @apply bg-yellow-500 px-8 py-2 font-bold text-white transition hover:bg-yellow-700;
+  }
+
+  .btn-black {
+    @apply bg-gray-900 px-8 py-2 font-bold text-white transition hover:text-gray-400;
+  }
+
+  .btn-special {
+    @apply bg-gradient-to-r from-pink-600 to-purple-600 px-8 py-2 font-bold text-white transition hover:from-pink-800 hover:to-purple-800;
+  }
+
+  .btn-shape {
+    @apply rounded-full;
+  }
+}
